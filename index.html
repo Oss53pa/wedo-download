@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>WeDo — Vos tontines, réinventées</title>
+<meta name="description" content="WeDo : la tontine de toujours, avec la sécurité du numérique. Séquestre, registre infalsifiable, score de fiabilité. Téléchargez l'application Android." />
+<meta property="og:title" content="WeDo — Vos tontines, réinventées" />
+<meta property="og:description" content="La solidarité de la tontine, la sécurité du numérique. Téléchargez l'app Android." />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#241810" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Dosis:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --espresso:#241810; --espresso2:#3a2a1a; --bronze:#6b4a29;
+    --cream:#FBF6EC; --gold:#D4A03C; --goldL:#E6C172; --goldD:#9E7320;
+    --emerald:#1F7A58; --terracotta:#C2683C; --crimson:#B23A4E; --indigo:#3A3E7C;
+    --ink:#C2B6A8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Dosis',system-ui,sans-serif;color:var(--cream);
+    background:radial-gradient(130% 90% at 25% 8%,#4a331e,#241810 55%,#150d07);
+    min-height:100vh;line-height:1.5;-webkit-font-smoothing:antialiased;
+    padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+  }
+  .wrap{max-width:520px;margin:0 auto;padding:34px 22px 40px;text-align:center}
+  .emblem{margin:0 auto 14px;display:block}
+  .brand{font-family:'Grand Hotel',cursive;font-size:54px;line-height:1;color:var(--cream)}
+  .tagline{font-size:23px;font-weight:800;margin-top:6px;letter-spacing:-.3px}
+  .sub{font-size:15px;color:var(--ink);margin-top:10px;max-width:380px;margin-left:auto;margin-right:auto}
+  .stripe{height:6px;border-radius:4px;max-width:200px;margin:22px auto;display:flex;overflow:hidden}
+  .stripe i{flex:1}
+  .cta{
+    display:inline-flex;align-items:center;gap:10px;justify-content:center;
+    background:linear-gradient(135deg,var(--goldL),var(--gold) 55%,var(--goldD));
+    color:#2C2014;font-weight:800;font-size:18px;text-decoration:none;
+    padding:16px 30px;border-radius:18px;box-shadow:0 12px 30px rgba(212,160,60,.34);
+    transition:transform .15s ease;
+  }
+  .cta:active{transform:scale(.97)}
+  .cta svg{width:22px;height:22px}
+  .meta{font-size:12.5px;color:var(--ink);margin-top:10px}
+  .card{
+    background:rgba(255,255,255,.05);border:1px solid rgba(230,193,114,.18);
+    border-radius:20px;padding:18px;margin-top:26px;text-align:left;
+  }
+  .feat{display:flex;gap:13px;align-items:flex-start;padding:9px 0}
+  .feat + .feat{border-top:1px solid rgba(255,255,255,.07)}
+  .fi{flex:0 0 40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center}
+  .ft{font-size:15px;font-weight:700;color:var(--cream)}
+  .fd{font-size:13px;color:var(--ink);margin-top:1px}
+  .qr-sec{margin-top:30px}
+  .qr-box{background:var(--cream);display:inline-block;padding:14px;border-radius:16px}
+  .qr-cap{font-size:13px;color:var(--ink);margin-top:10px}
+  .install{font-size:12.5px;color:var(--ink);margin-top:26px;max-width:400px;margin-left:auto;margin-right:auto;line-height:1.6}
+  .install b{color:var(--goldL);font-weight:700}
+  .foot{margin-top:30px;font-size:13px;color:#8A7E70}
+  .foot b{font-family:'Grand Hotel',cursive;font-size:17px;color:var(--ink);font-weight:400}
+  .ios{font-size:12px;color:#8A7E70;margin-top:6px}
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <svg class="emblem" width="116" height="116" viewBox="0 0 200 200" aria-label="Logo WeDo">
+      <defs>
+        <radialGradient id="bg" cx="0.38" cy="0.3" r="1.1">
+          <stop offset="0" stop-color="#4E3422"/><stop offset="0.55" stop-color="#2C2014"/><stop offset="1" stop-color="#1A1208"/>
+        </radialGradient>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#E6C172"/><stop offset="0.5" stop-color="#D4A03C"/><stop offset="1" stop-color="#9E7320"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="0" width="200" height="200" rx="46" fill="url(#bg)"/>
+      <circle cx="100" cy="100" r="72" fill="none" stroke="url(#gold)" stroke-width="2.6"/>
+      <g>
+        <circle cx="100" cy="28" r="5" fill="#E6C172"/><circle cx="136" cy="37.6" r="4.2" fill="#C2683C"/>
+        <circle cx="162.4" cy="64" r="4.2" fill="#1F7A58"/><circle cx="172" cy="100" r="5" fill="#D4A03C"/>
+        <circle cx="162.4" cy="136" r="4.2" fill="#B23A4E"/><circle cx="136" cy="162.4" r="4.2" fill="#666BB3"/>
+        <circle cx="100" cy="172" r="5" fill="#E6C172"/><circle cx="64" cy="162.4" r="4.2" fill="#C2683C"/>
+        <circle cx="37.6" cy="136" r="4.2" fill="#1F7A58"/><circle cx="28" cy="100" r="5" fill="#D4A03C"/>
+        <circle cx="37.6" cy="64" r="4.2" fill="#B23A4E"/><circle cx="64" cy="37.6" r="4.2" fill="#666BB3"/>
+      </g>
+      <text x="100" y="132" text-anchor="middle" font-family="'Grand Hotel',cursive" font-size="96" fill="#FBF6EC">W</text>
+    </svg>
+
+    <h1 class="brand">WeDo</h1>
+    <p class="tagline">Vos tontines, réinventées</p>
+    <p class="sub">La solidarité de la tontine de toujours, avec la sécurité du numérique.</p>
+
+    <div class="stripe">
+      <i style="background:var(--emerald)"></i><i style="background:var(--gold)"></i>
+      <i style="background:var(--terracotta)"></i><i style="background:var(--crimson)"></i>
+      <i style="background:var(--indigo)"></i>
+    </div>
+
+    <a class="cta" id="dl" href="https://github.com/Oss53pa/WeDo_Mobile/releases/download/android-latest/wedo.apk">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#2C2014" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-4-4m4 4l4-4"/><path d="M5 21h14"/></svg>
+      Télécharger pour Android
+    </a>
+    <p class="meta">Gratuit · Android · ~73 Mo</p>
+    <p class="ios">Version iPhone bientôt disponible</p>
+
+    <section class="card" aria-label="Pourquoi WeDo">
+      <div class="feat">
+        <div class="fi" style="background:rgba(31,122,88,.18)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3FC79A" stroke-width="2"><path d="M12 3l7 4v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V7l7-4z"/></svg></div>
+        <div><div class="ft">Argent sous séquestre</div><div class="fd">Les cotisations sont sécurisées, pas dans la poche de l'organisateur. Distribution automatique.</div></div>
+      </div>
+      <div class="feat">
+        <div class="fi" style="background:rgba(102,107,179,.20)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8A8ECC" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 9h8M8 13h6"/></svg></div>
+        <div><div class="ft">Registre infalsifiable</div><div class="fd">Chaque mouvement est horodaté et chaîné cryptographiquement. Les litiges fondent.</div></div>
+      </div>
+      <div class="feat">
+        <div class="fi" style="background:rgba(212,160,60,.20)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#E6C172" stroke-width="2"><path d="M4 19l5-6 4 3 6-8"/></svg></div>
+        <div><div class="ft">Score de fiabilité</div><div class="fd">Payer à l'heure améliore votre score. Il vous suit d'une tontine à l'autre.</div></div>
+      </div>
+    </section>
+
+    <section class="qr-sec">
+      <div class="qr-box" id="qr"></div>
+      <p class="qr-cap">Sur ordinateur ? Scannez pour installer sur votre téléphone.</p>
+    </section>
+
+    <p class="install">
+      Android peut demander d'autoriser l'<b>installation depuis cette source</b> : acceptez, c'est normal avant la mise sur le Play Store.
+    </p>
+
+    <footer class="foot">
+      <b>une application Atlas Studio</b>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script>
+    (function(){
+      var APK = 'https://github.com/Oss53pa/WeDo_Mobile/releases/download/android-latest/wedo.apk';
+      function draw(){
+        if(typeof QRCode==='undefined'){return setTimeout(draw,150);}
+        new QRCode(document.getElementById('qr'),{
+          text:APK,width:170,height:170,colorDark:'#2C2014',colorLight:'#FBF6EC',
+          correctLevel:QRCode.CorrectLevel.M
+        });
+      }
+      draw();
+    })();
+  </script>
+</body>
+</html>
